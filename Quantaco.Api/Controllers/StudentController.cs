@@ -113,7 +113,7 @@ namespace Quantaco.Api.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        [HttpDelete("delete-student")]
+        [HttpDelete("delete-student/{id}")]
         public async Task<ActionResult> DeleteStudent(int id)
         {
             var teacherId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
