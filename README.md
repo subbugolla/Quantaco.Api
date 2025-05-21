@@ -1,10 +1,10 @@
-# Quantaco Education Portal
+### Quantaco Education Portal
 
 Education Portal built using .Net 8 backend APIs and React frontend
 
 ## Steps on how to run the application
 
-### Api
+# Api
 
    - Open the solution in visual studio
    - Select IIS Express and Run
@@ -12,7 +12,7 @@ Education Portal built using .Net 8 backend APIs and React frontend
    - In memory Db Schema gets created when the first call hits the DbContext
    - Data refreshes as and when the api is restarted
 
-### Client App
+# Client App
 
 Using Visual Studio Code Terminal or any Command Prompt
    - Navigate to the folder where you see \Quantaco.Client\package.json file
@@ -40,13 +40,14 @@ Using Visual Studio Code Terminal or any Command Prompt
    - Better testability
    - Loose coupling between components
 
-### Assumptions in real-time
+## Assumptions in real-time
+
  - In house Identity System available for authentication and authorization
  - RDBMS or similar data storage environment is available
  - Caching technology like Redis can be used for data caching
 
 
-### Due to time constraints
+## Due to time constraints
 
 # Backend
  - Couldn't implement Unit tests for all layers. Added a Test project with a simple test case to demonstrate the capability
@@ -61,14 +62,14 @@ Using Visual Studio Code Terminal or any Command Prompt
 
 ## Technology Stack
 
-### Backend (.NET 8)
+# Backend (.NET 8)
 - ASP.NET Core Web API
 - Entity Framework Core (In-Memory Database)
 - JWT Token Authentication
 - Serilog for Logging
 - Swagger UI for API Documentation
 
-### Frontend (React)
+# Frontend (React)
 - TypeScript
 - Material-UI for Components
 - Formik & Yup for Form Validation
